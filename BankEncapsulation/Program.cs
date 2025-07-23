@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var interation = new UserInteraction();
+            var accountOne = new BankAccount();
+            interation.ATM(accountOne);
         }
     }
 }
